@@ -1,0 +1,17 @@
+package java8;
+
+import java.time.LocalDate;
+import java.time.Month;
+
+public class Date {
+
+	public static void main(String[] args) {
+		
+		LocalDate hoje = LocalDate.now();
+		System.out.println(hoje);
+
+		LocalDate copa = LocalDate.of(2022, Month.JULY, 07);
+		System.out.println(copa);
+	}
+
+}

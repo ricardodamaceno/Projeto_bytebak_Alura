@@ -1,0 +1,28 @@
+import java.util.Set;
+import java.util.TreeSet;
+
+public class Recibo /*implements Comparable<Recibo>*/ {
+
+       public static void main(String [] args) {
+    	   
+    	   Recibo rec1 = new Recibo();
+    	   Recibo rec2 = new Recibo();
+    	   Recibo rec3 = new Recibo();
+    	   
+             Set<Recibo> recibos = new TreeSet<Recibo>();
+             recibos.add(rec1);
+             recibos.add(rec2);
+             recibos.add(rec3);
+
+             for (Recibo teste : recibos) {
+                    System.out.println(teste);
+             }
+       }
+       
+//	@Override
+//	public int compareTo(Recibo o) {
+//		return 0;
+//		
+//	}
+	
+}
